@@ -1,0 +1,22 @@
+.header {
+    @include spacing-vert;
+    @include margin-bottom;
+    border-bottom: $border;
+  }
+  
+  .logo-link {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .logo {
+    display: block;
+    max-width: 210px;
+  }
+  
+  .logo-image {
+    width: 100%;
+  }
+  
+  

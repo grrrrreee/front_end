@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+div{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    animation: fadeIn 1s linear;
+    display: table;
+}
+
+.memo {
+    animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+div.a{
+    height : 129.5px;
+    background-color : #f5f5f5;
+}
+
+div.aa {
+    padding : 20px 90px 80px 100px;
+}
+
+div.b{
+    height : 129.1px;
+}
+
+div.bb {
+    padding : 100px 0px 0px 100px
+}
+
+div.c {
+    background-color : rgb(5, 19, 145);
+    color :#ffffff;
+}
+
+h3 {
+    display: table-cell;
+    font-family: 'Ruda', sans-serif;
+    font-size : 26px;
+}
+
+h3.a {
+    padding : 36px 0px 0px 100px
+}
+
+h3.b{
+    
+    font-weight: 900;
+}
+
+h4 {
+    font-family: 'Ruda', sans-serif;
+}
+
+h4.a {
+    position: relative;
+    padding: 0px 0px 0px 100px;
+}
+
+#relative2
+{
+    position: relative;
+    top : 50px;
+    left : 100px;
+}
+
+#relative3 
+{
+    position: relative;
+    left :300px; 
+}
+
+p {
+    display: table-cell;
+    font-family : 'IBM Plex Sans', san-serif;
+    font-size : 15px;
+
+}
+
+p.a {
+    font-family : 'IBM Plex Sans', san-serif;
+    font-size : 11px;
+    vertical-align: middle;
+}    
+ 
+p.test {
+}

@@ -1,0 +1,23 @@
+// ---------------------------------------------------------------------------
+// Favorit
+// ---------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Favorit';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/static/fonts/FavoritTrialStd-Bold.woff');
+    src: url('/static/fonts/FavoritTrialStd-Bold.woff') format('woff'),
+      url('/static/fonts/FavoritTrialStd-Bold.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Favorit';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/static/fonts/FavoritTrialStd-Light.woff');
+    src: url('/static/fonts/FavoritTrialStd-Light.woff') format('woff'),
+      url('/static/fonts/FavoritTrialStd-Light.woff2') format('woff2');
+  }
+  
+  

@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(238, 238, 238);
+}
+
+header,footer, nav, aside, section{
+    border : 1px solid;
+    margin : 5px;
+    padding : 10px;
+}
+
+header {
+    height : 50px; 
+    background-color: gray;
+}
+
+section, aside {
+    float: left;
+    height : 200px;
+}
+
+section {
+    background-color : red;
+    width : 80%;
+}
+
+aside {
+    background-color : yellow;
+    width : 12.5%;
+}
+
+footer {
+    height : 50px;
+    background-color : blue;
+    position :relative;
+    clear : both;
+}
+
+article {
+    width : 90%;
+    margin : 20px;
+    background-color : #999;
+}

@@ -1,0 +1,60 @@
+body {
+	background: #e6b9f0;
+}
+
+.total {
+	display : block; 
+	position : absolute;
+	left : 50%;
+	top : 50%;
+	width: 200px;
+	height : 200px;
+	transform : translate(-50%, -50%);
+	text-decoration : none;
+}
+
+.total span {
+	display : block;
+	position : absolute;
+	top : 50%;
+	width : 100%;
+	height : 30px;
+	background : yellow; 
+	color : transparent;
+	transform : translate(0, -50%);
+	text-decoration :none;
+	transition : all 0.5s;
+}
+
+.total span:before, .total span:after {
+	content: "";
+	position : absolute;
+	left : 0;
+	top : 0;
+	width : 100%;
+	height : 30px;
+	background : yellow;
+	transition : all 0.5s;
+}
+
+.total span:before{
+	top : -60px;
+}
+
+.total span:after{
+	top : 60px;
+}
+
+.total.on span {
+	background: none;
+}
+
+.total.on span:before {
+	top :0px;
+	transform : rotate(45deg);
+}
+
+.total.on span:after {
+	top :0px;
+	transform : rotate(-45deg);
+}

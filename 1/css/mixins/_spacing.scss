@@ -1,0 +1,47 @@
+// Padding bottom
+@mixin spacing-bottom {
+    padding-bottom: $sp-sm;
+  
+    @include mq($bp-lg) {
+      padding-bottom: $sp-lg;
+    }
+  }
+  
+  // Padding top
+  @mixin spacing-top {
+    padding-top: $sp-sm;
+  
+    @include mq($bp-lg) {
+      padding-top: $sp-lg;
+    }
+  }
+  
+  // Vertical padding
+  @mixin spacing-vert {
+    @include spacing-bottom;
+    @include spacing-top;
+  }
+  
+  // Margin bottom
+  @mixin margin-bottom {
+    margin-bottom: $sp-sm;
+  
+    @include mq($bp-lg) {
+      margin-bottom: $sp-lg;
+    }
+  }
+  
+  // Margin top
+  @mixin margin-top {
+    margin-top: $sp-sm;
+  
+    @include mq($bp-lg) {
+      margin-top: $sp-lg;
+    }
+  }
+  
+  // Vertical margins
+  @mixin margin-vert {
+    @include margin-bottom;
+    @include margin-top;
+  }

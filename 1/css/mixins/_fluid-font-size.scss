@@ -1,0 +1,39 @@
+// ---------------------------------------------------------------------------
+// Fluid Font Sizing
+// ---------------------------------------------------------------------------
+
+@function strip-units($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+      @return $number / ($number * 0 + 1);
+    }
+  
+    @return $number;
+  }
+  
+  @mixin fluid-size(
+    $attribute: font-size,
+    $min-size: 16px,
+    $max-size: 38px,
+    $min-width: 400px,
+    $max-width: 1400px
+  ) {
+    #{$attribute}: $min-size;
+  
+    @include mq($min-width, $max-width) {
+      #{$attribute}: calc(
+        #{$min-size} + (#{strip-units($max-size)} - #{strip-units($min-size)}) * (
+            100vw - #{$min-width}
+          ) / (#{strip-units($max-width)} - #{strip-units($min-width)})
+      );
+    }
+  
+    @include mq($max-width) {
+      #{$attribute}: $max-size;
+    }
+  }
+  
+  @mixin fluid-font-size($min-size: 16px, $max-size: 38px, $min-width: 400px, $max-width: 1400px) {
+    @include fluid-size(font-size, $min-size, $max-size, $min-width, $max-width);
+  }
+  
+  

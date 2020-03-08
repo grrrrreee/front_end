@@ -1,0 +1,42 @@
+body {
+    margin :0;
+    padding :0;
+    font-family : "Monserrat";
+}
+
+.header {
+    width : 100%;
+    height : 600px;
+}
+
+.navigation {
+    width : 100%;
+    padding : 18px 0;
+    text-align : center;
+    position : sticky;
+    top: 0;
+    background-color : rgb(238, 236, 234);
+}
+
+.navigation a{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 18PX;
+    text-decoration: NONE;
+    color: rgb(12, 9, 9);
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  .navigation a:hover{
+    color: #333;
+  }
+  .nav{
+    position: fixed;
+    background: #F5BB4E;
+  }
+  p{
+    font-size: 18px;
+    padding: 0 40px;
+    text-align: justify;
+    line-height: 200%;
+  }

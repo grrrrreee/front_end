@@ -1,0 +1,45 @@
+.contact {
+    @include margin-vert;
+    border-bottom: $border;
+    border-top: $border;
+    padding: 30px 0;
+  
+    @include mq($bp-lg) {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 45px 0;
+    }
+  }
+  
+  .contact-title {
+    @include fluid-font-size(20px, 30px, 320px, 1024px);
+    margin-bottom: 20px;
+  
+    @include mq($bp-lg) {
+      margin-bottom: 0;
+    }
+  }
+  
+  .btn {
+    @include fluid-font-size(18px, 22px, 320px, 1024px);
+    background-color: $c-spot;
+    color: $c-white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 20px;
+  
+    &:hover {
+      background-color: $c-black;
+    }
+  }
+  
+  .btn-text {
+    margin-right: 20px;
+  }
+  
+  .btn-icon {
+    margin-left: 20px;
+  }
+  
+  

@@ -1,0 +1,11 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: $page-width;
+    padding: 0 $sp-sm;
+  
+    @include mq($bp-md) {
+      padding: 0 $sp-md;
+    }
+  }
