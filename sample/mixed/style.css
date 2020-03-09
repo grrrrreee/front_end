@@ -13,7 +13,7 @@ footer, nav, aside, section{
 }
 
 section, aside {
-    padding-top : 50px;
+    padding-top : 60px;
 }
 
 header {
@@ -25,6 +25,7 @@ header {
 
 #buttons {
     float : right;
+    padding-right : 40px;
 }
 
 img {
