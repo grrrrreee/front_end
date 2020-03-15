@@ -18,7 +18,7 @@ section, aside {
 
 header {
     height : 50px; 
-    background-color: gray;
+    background-color: rgb(201, 201, 201);
     position : fixed;
     width : 100%;
 }
@@ -42,7 +42,7 @@ section, aside {
 
 section {
     background-color : red;
-    width : 80%;
+    width : 70%;
     height : 100%;
 }
 
@@ -52,8 +52,9 @@ span.date {
 
 aside {
     background-color : yellow;
-    height : 200px;
-    width : 12.5%;
+    height : 100%;
+    width : 22.5%;
+    float : right;
 }
 
 footer {
@@ -92,6 +93,17 @@ div.b {
     margin : 20px;
 }
 
+.Featured {
+    display :block;
+    padding-top : 30px;
+    padding-bottom :50px;
+}
+
+.underfeatured {
+    position : relative;
+    display :block;
+}
+
 
 .button {
     background-color: blue;
@@ -100,7 +112,7 @@ div.b {
     text-align : center;
     text-decoration: none;
     display : inline-block;
-    font-size : 16px;
+    font-size : 20px;
     margin : 4px 2px;
     cursor: pointer ;
     border : 4px solid red;
@@ -114,6 +126,36 @@ div.b {
 
 aside p {
     margin-bottom : 20px;
+}
+
+.buttonsout {
+    padding-top : 30px;
+    padding-bottom : 30px;
+}
+
+.buttons {
+    height : 40px;
+    width : 95%;
+    border : 1px solid #1b5ac2;
+    background : #ffffff;
+}
+
+input {
+    width : 60%;
+    padding : 10px;
+    border : 0px;
+    outline : none;
+    float : left;
+}
+
+button.btn1 {
+    width : 40px;
+    height : 100%;
+    border : 0px;
+    background : #1b5ac2;
+    outline :none;
+    float : right;
+    color : #ffffff;
 }
 
 @media (max-width: 850px) {
@@ -182,6 +224,15 @@ aside p {
 
 a {
     text-decoration: none;
+    color : black;
+}
+
+a:hover {
+    color : red;
+}
+
+a:active {
+    color : green;
 }
 
 .dropbtn, .dropbtn2 {
