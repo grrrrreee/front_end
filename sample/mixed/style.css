@@ -42,7 +42,7 @@ section, aside {
 
 section {
     background-color : red;
-    width : 70%;
+    width : 50%;
     height : 100%;
 }
 
@@ -53,7 +53,7 @@ span.date {
 aside {
     background-color : yellow;
     height : 100%;
-    width : 22.5%;
+    width : 20%;
     float : right;
 }
 
