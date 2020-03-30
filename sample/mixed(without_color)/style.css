@@ -10,7 +10,6 @@ header {
     height : 50px; 
     background-color: rgb(247, 247, 247);
     position : fixed;
-    width : 100%;
 }
 
 img {
@@ -65,15 +64,21 @@ section, aside {
 }
 
 section {
-    width : 72.5%;
+    margin-left : 290px;
+    width : 729px;
     height : 100%;
+    margin-top : 40px;
+}
+
+section span {
+    color: #555555;
 }
 
 article {
-    width : 90%;
-    margin : 20px;
-    padding-top : 10px;
+    width : 95%;
+    height : 250px;
     padding-bottom : 10px;
+    margin-bottom : 10px;
     /*left, right 2배로*/
 }
 
@@ -81,20 +86,44 @@ article:hover {
     background-color: rgb(233, 233, 233);
 }
 
+article p {
+    font-family : 'KoPub Batang' !important; 
+}
+
 /*aside*/
 
 aside {
     height : 100%;
-    width : 20.5%;
+    margin-right : 290px;
+    width : 19%;
     float : right;
+    margin-top : 65px;
+}
+
+aside a {
+    font-weight : bold;
+}
+
+aside p {
+    margin-bottom : 20px;
+}
+
+.underfeatured {
+    margin-left : 15px;
 }
 
 .buttons {
     height : 40px;
     width : 95%;
-    border : 1px solid #1b5ac2;
+    border-bottom : 2px solid #3a3a3a;
     background : #ffffff;
 }
+
+.arrow {display:inline-block; background:#000000; position:relative;}
+.arrow.test_4 {width: 20px; height : 10px;}
+.arrow:after {content:''; position:absolute; width:0; height:0; border-style:solid;}
+.arrow.test_4:after {border-width:15px 20px;}
+.arrow.test_4:after {border-color:transparent transparent transparent #000000; top:-10px; left:20px;}
 
 input {
     width : 60%;
@@ -149,6 +178,7 @@ div.b {
     display :block;
     padding-top : 30px;
     padding-bottom :50px;
+    font-family : 'APPLE SD Gothic NEO'
 }
 
 .underfeatured {
@@ -162,17 +192,12 @@ div.b {
     text-align : center;
     text-decoration: none;
     display : inline-block;
-    font-size : px;
     margin : 4px 2px;
     cursor: pointer ;
 }
 
 .button:hover {
     background-color: rgb(223, 223, 223);
-}
-
-aside p {
-    margin-bottom : 20px;
 }
 
 .buttonsout {
@@ -184,10 +209,9 @@ button.btn1 {
     width : 40px;
     height : 100%;
     border : 0px;
-    background : #1b5ac2;
     outline :none;
     float : right;
-    color : #ffffff;
+    color : #000000;
 }
 
 @media (max-width: 850px) {
