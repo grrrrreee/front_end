@@ -1,0 +1,100 @@
+body {
+    background-color:rgb(238, 238, 238);
+}
+
+header,footer, nav, aside, section{
+    border : 1px solid;
+    margin : 5px;
+    padding : 10px;
+}
+
+header {
+    height : 50px; 
+    background-color: gray;
+}
+
+.tabs_1 {
+    float : left; 
+}
+
+.tabs_2 {
+    float : right;
+}
+
+.tabs_2 > p {
+    padding-left : 20px;
+    float : left;
+}
+
+nav > div {
+    text-align : center;
+    font-weight : bold;
+}
+
+section, aside {
+    float: left;
+    height : 200px;
+}
+
+section {
+    background-color : red;
+    width : 100%;
+    height : 100%;
+}
+
+section > div.boards {
+    text-align: center;
+}
+
+section .board {
+    display : inline-block;
+    text-align: center;
+}
+
+section .board_text {
+    width : 150px;
+    margin-top : 5px;
+    margin-left : 20px;
+    margin-bottom : 5px;
+}
+
+article {
+    width : 90%;
+    margin : 20px;
+    background-color : #999;
+}
+
+article.board {
+    width : 150px;
+    height : 150px;
+    display : inline-block;
+}
+
+aside {
+    background-color : yellow;
+    width : 12.5%;
+}
+
+footer {
+    background-color : blue;
+    clear : both;
+    position : relative; 
+    padding : 10px;
+    padding-top : 25px;
+    height : 250px;
+    list-style: none;
+}
+
+section > div.footer {
+    text-align: center;
+}
+
+footer .infooter {
+    display : inline-block;
+    margin : 20px;
+}
+
+.infooter > li {
+    text-align: right;
+}
+

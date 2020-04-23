@@ -10,6 +10,9 @@ header {
     height : 50px; 
     background-color: rgb(247, 247, 247);
     position : fixed;
+    margin-left : 270px; 
+    margin-right : 270px; 
+    width : 65%;
 }
 
 img {
@@ -18,7 +21,6 @@ img {
 
 #buttons {
     float : right;
-    padding-right : 40px;
 }
 
 .dropdown {

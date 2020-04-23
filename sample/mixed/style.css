@@ -12,6 +12,10 @@ footer, nav, aside, section{
     padding : 10px;
 }
 
+.tabs {
+    float : left;
+}
+
 section, aside {
     padding-top : 60px;
 }
