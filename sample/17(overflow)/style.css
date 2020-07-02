@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: #cccccc;
+    float: left;
+    margin-right: 10px;}
+  .vi {
+    overflow: visible;
+  }
+  .hi {
+    overflow: hidden;
+  }
+  .sc {
+    overflow: scroll;
+  }
+  .au {
+    overflow: auto;
+  }

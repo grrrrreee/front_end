@@ -5,6 +5,10 @@ div {
     background : #ffffff;
 }
 
+div.title {
+    font-family: 'Poiret One', cursive;
+}
+
 input {
     font-size : 16px;
     width : 325px;
