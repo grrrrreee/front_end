@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+input {
+    position: fixed;
+}
+
+label {
+    cursor: pointer;
+    color: red;
+}
+
+.display {
+    background-color : black;
+    width : 150px;
+    height : 150px;
+    
+}
+
+#textbtn:checked ~ .display {
+    display: block;
+}
+
+.menu2 > li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+.menu2 .submenu2 {
+    display:none;
+    background: #ccc;
+}
+
+.menu2 #menuBtn2:checked ~ .submenu2 {
+    display: block;
+}

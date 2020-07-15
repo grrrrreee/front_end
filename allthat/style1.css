@@ -1,0 +1,221 @@
+/* 
+theme colors 
+*/
+
+body {
+    background-color : #121212;
+}
+
+div.header {
+    background-color: #3d3d3d;
+    position : fixed;
+    width : 100%;
+    padding-bottom : 18px;
+}
+
+div.title {
+    text-align : center;
+    /*padding-top : 5%;*/
+    color : white;
+    font-family: 'Poiret One', cursive;
+    font-weight : bold;
+    font-size : 45px;
+}
+
+div.search {
+    position : relative;
+    top : 10px;
+    margin-left : auto;
+    margin-right : auto;
+
+    width: 628px;
+    height: 36px;
+
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 10px rgba(0, 255, 163, 0.25);
+    border-radius: 4px;
+}
+
+input {
+    background-color : white;
+    width: 85%; 
+    padding : 7px;
+    border : 0px;
+    outline : none;
+}
+
+div.buttons {
+    float : left;
+}
+
+div.buttons2 {
+    display :table;
+    height : 33px;
+}
+
+div.button3 {
+    float : right;
+    height : 33px;
+    padding-left : 8.5px;
+    padding-right : 8.5px;
+    padding-top : 5px;
+    color : rgb(134, 134, 134);
+}
+
+div.button4 {
+    display : table-cell;
+    float : right;
+    height : 33px;
+    width : 33px;
+}
+
+section {
+    float : left;
+    background-color: green;
+    margin-top : 150px;
+}
+
+aside {
+    float : right;
+}
+
+div.sections {
+    margin-left : 12.7%;
+    margin-right : 12.7%;
+}
+
+div.section1 {
+    position : relative;
+    width: 384px;
+    height: 164px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section2 {
+    position : relative;
+    width: 141px;
+    height: 164px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section3 {
+    position : relative;
+    width: 141px;
+    height: 164px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section4 {
+    position: relative;
+    width: 222px;
+    height: 164px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section5 {
+    position: absolute;
+    width: 222px;
+    height: 312px;
+    left: 163px;
+    top: 341px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section6 {
+    position: absolute;
+    width: 710px;
+    height: 531px;
+    left: 408px;
+    top: 341px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section7 {
+    position: absolute;
+    width: 222px;
+    height: 235px;
+    left: 163px;
+    top: 665px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section8 {
+    position: absolute;
+    width: 222px;
+    height: 237px;
+    left: 163px;
+    top: 912px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+div.section9 {
+    position: absolute;
+    width: 547px;
+    height: 110px;
+    left: 489px;
+    top: 882px;
+
+    background: #C4C4C4;
+}
+
+div.section10 {
+    position: absolute;
+    width: 710px;
+    height: 373px;
+    left: 407px;
+    top: 1003px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), #121212;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+#inside {
+    height : 22%;
+    background-color : red;
+}
+
+#inside2 {
+    height : 43px;
+    width : 100%;
+    background-color: red;
+}
+
+#inside3 {
+    height : 36px;
+    width : 100%;
+    background-color: red;
+}
+
+#Einside {
+    height : 122px;
+}
+
+#more {
+    display : none;
+}

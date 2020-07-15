@@ -46,6 +46,11 @@ section > div.boards {
     text-align: center;
 }
 
+section.au {
+    overflow : auto;
+    height : 292px;
+}
+
 section .board {
     display : inline-block;
     text-align: center;
@@ -70,31 +75,26 @@ article.board {
     display : inline-block;
 }
 
-aside {
-    background-color : yellow;
-    width : 12.5%;
-}
-
 footer {
     background-color : blue;
     clear : both;
     position : relative; 
-    padding : 10px;
+    padding : 70px;
     padding-top : 25px;
-    height : 250px;
+    height : 175px;
     list-style: none;
 }
 
-section > div.footer {
+footer > div.footer {
     text-align: center;
 }
 
 footer .infooter {
     display : inline-block;
-    margin : 20px;
+    text-align : left;
+    margin : 55px;
 }
 
 .infooter > li {
     text-align: right;
 }
-
