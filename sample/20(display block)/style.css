@@ -1,0 +1,23 @@
+#board {
+    background-color :red;
+}
+
+#line {
+    width : 100%;
+    height : 20%;
+    margin-bottom : 5px;
+    background-color : yellow;
+    display:none;
+}
+
+div.line {
+    display : none;
+}
+
+#line > div {
+    float : left;
+}
+
+div.black {
+    background-color : black;
+}
